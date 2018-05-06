@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<style>
+		table
+		{
+			margin: 10% auto;
+			vertical-align: middle;
+		}
+
+		button
+		{
+			text-align: center;
+			width: 40px;
+			height: 40px;
+		}
+
+		td
+		{
+			width: 30px;	
+			height: 30px;
+		}
+		
+		input
+		{
+			box-sizing: border-box;
+			height: 100%;
+			width: 100%;
+			border: 2px solid black;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<td colspan="3"><input type="text"></td>
+				<td><button id="equal">=</button></td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><button class="number">1</button></td>
+				<td><button class="number">2</button></td>
+				<td><button class="number">3</button></td>
+				<td><button class="operator">+</button></td>
+			</tr>
+			<tr>
+				<td><button class="number">4</button></td>			
+				<td><button class="number">5</button></td>			
+				<td><button class="number">6</button></td>			
+				<td><button class="operator">-</button></td>			
+			</tr>
+			<tr>
+				<td><button class="number">7</button></td>
+				<td><button class="number">8</button></td>
+				<td><button class="number">9</button></td>
+				<td><button class="operator">x</button></td>
+			</tr>
+			<tr>
+				<td><button id="reset">C</button></td>
+				<td><button class="number">0</button></td>
+				<td><button class="number">.</button></td>
+				<td><button class="operator">/</button></td>
+			</tr>
+		</tbody>
+	</table>
+	<script type="text/javascript" src="calc.js"></script>
+</body>
+</html>
