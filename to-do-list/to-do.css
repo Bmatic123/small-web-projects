@@ -1,0 +1,41 @@
+body
+{
+	background: linear-gradient(to right,rgb(89, 186, 204),white);
+	font-family : "Trebuchet";
+}
+
+#container
+{
+	margin: 0 auto;
+	padding-top: 75px;
+	width: 25%;
+	text-align: center;
+}
+
+#list
+{
+	width: 100%;
+}
+
+h1
+{
+	padding: 2px;
+	font-size: 1.5em;
+	font-weight: normal;
+	background-color: rgb(17, 95, 221);
+	color: white;
+	text-transform: uppercase;
+}
+
+.done
+{
+	color: grey;
+	text-decoration: line-through;
+}
+ul
+{
+	list-style: none;
+}
+
+
+
