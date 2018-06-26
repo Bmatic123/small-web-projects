@@ -22,7 +22,6 @@ function CircleConstructor()
 
 	// Colour randomly chosen from a predefined set
 	this.colour = colourArray[Math.floor(Math.random()*(colourArray.length))];
-	console.log(this.colour);
 
 	this.draw = function(){
 		c.beginPath();
