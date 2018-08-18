@@ -1,3 +1,7 @@
-# small-web-projects
+# your website
 
-Some mini-projects to get my hands dirty with web techonologies such as HTML, CSS, and JavaScript. A few of these are done in code-alongs or as solutions to assignments in [Udemy - The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/) by Colt Steele. The others are just random ideas to get some practice. 
+Drag index.html file into the address bar for your web browser
+
+Customize text on website as much as desired. (i.e. include your name and some info about you)
+
+Refresh browser to see changes
